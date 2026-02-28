@@ -1,0 +1,124 @@
+{
+  "projectType": "framework",
+  "projectName": "nanobot",
+  "projectDescription": "Ultra-lightweight personal AI assistant framework with ~4,000 lines of core code",
+  "theme": "aspen",
+  "primaryColor": "#00d4ff",
+  "lightColor": "#4de4ff",
+  "darkColor": "#0099cc",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core-concepts/architecture",
+              "core-concepts/agent-loop",
+              "core-concepts/tools",
+              "core-concepts/skills",
+              "core-concepts/memory",
+              "core-concepts/sessions"
+            ]
+          },
+          {
+            "group": "Channels",
+            "pages": [
+              "channels/overview",
+              "channels/telegram",
+              "channels/discord",
+              "channels/whatsapp",
+              "channels/feishu",
+              "channels/mochat",
+              "channels/slack",
+              "channels/dingtalk",
+              "channels/qq",
+              "channels/email",
+              "channels/matrix"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/overview",
+              "configuration/providers",
+              "configuration/mcp",
+              "configuration/security"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/custom-tools",
+              "advanced/custom-providers",
+              "advanced/custom-skills",
+              "advanced/deployment",
+              "advanced/docker",
+              "advanced/systemd"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "CLI",
+            "pages": [
+              "cli/commands",
+              "cli/agent",
+              "cli/gateway",
+              "cli/cron"
+            ]
+          },
+          {
+            "group": "Core API",
+            "pages": [
+              "api/agent-loop",
+              "api/tools",
+              "api/providers",
+              "api/channels",
+              "api/session-manager"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Ultra-lightweight ~4,000 line agent framework",
+    "Multi-platform chat integration (Telegram, Discord, WhatsApp, etc.)",
+    "Extensible tool and skill system",
+    "MCP (Model Context Protocol) support",
+    "Multi-provider LLM support (OpenRouter, Anthropic, OpenAI, etc.)",
+    "Persistent memory and session management",
+    "Scheduled tasks with cron support",
+    "Docker and systemd deployment"
+  ],
+  "publicApiSurface": [
+    "nanobot onboard",
+    "nanobot agent",
+    "nanobot gateway",
+    "nanobot status",
+    "nanobot cron",
+    "nanobot channels",
+    "nanobot provider login",
+    "AgentLoop",
+    "Tool",
+    "ToolRegistry",
+    "ContextBuilder",
+    "MemoryStore",
+    "SessionManager",
+    "LLMProvider",
+    "ChannelManager"
+  ]
+}
